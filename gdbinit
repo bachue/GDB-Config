@@ -1,4 +1,4 @@
-set history save on
+set history save
 set history size unlimited
 
 define xxd
