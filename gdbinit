@@ -2,6 +2,7 @@ add-auto-load-safe-path /usr/share/go/src/runtime/runtime-gdb.py
 set auto-load safe-path /
 set history save
 set history size unlimited
+set follow-fork-mode ask
 
 define xxd
   dump binary memory dump.bin $arg0 $arg0+$arg1
